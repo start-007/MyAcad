@@ -61,8 +61,8 @@
   <div class="row">
     <div class="col-lg-6 ">
       <h1 class="big-heading">For every student who wants to learn</h1>
-      <button type="button" class="download-button btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-      <button type="button" class="download-button btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+      <button type="button" class="download-button btn btn-dark btn-lg" onclick="appleStore()"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="google-play download-button btn btn-outline-light btn-lg" onclick="googleStore()"><i class="fab fa-google-play"></i> Download</button>
     </div>
     <div class="col-md-6">
       <img class="iphone6" src="images/phone.jpeg" alt="iphone-mockup">
@@ -114,18 +114,18 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item ">
-          <h2>Review1</h2>
-          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+          <h2>The Machine Learning course contents and teaching are both simple and lucid for anyone to learn</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="dog-profile">
+          <em>Santhosh, Andhra Pradesh</em>
         </div>
         <div class="carousel-item active">
-          <h2 class="testimonial-text">review2</h2>
+          <h2 class="testimonial-text">They would make me solve numerous Machine Learning case studies, to try and build an industrial mind set.</h2>
           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
           <em>Beverly, Illinois</em>
         </div>
         <div class="carousel-item">
-          <h2>review3.</h2>
-          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <h2>Machine Learning Course students continue to surprise me with their grasp of cutting edge AI techniques coupled with effective data engineering skills are unique.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
       </div>
@@ -178,7 +178,7 @@
         <p>Free Classes</p>
         <p>Limited Interactiveness</p>
         <p>Unlimited App Usage</p>
-        <button type="button" class="btn btn-outline-dark btn-lg btn-block">Sign Up</button>
+        <button type="button" class="btn btn-outline-dark btn-lg btn-block" onclick="youTube()">Sign Up</button>
       </div>
     </div>
   </div>
@@ -193,7 +193,7 @@
         <p>Unlimited Classes</p>
         <p>Unlimited PDFS</p>
         <p>limited Assignments</p>
-        <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+        <button type="button" class="btn btn-dark btn-lg btn-block" onclick="signUp()">Sign Up</button>
       </div>
     </div>
   </div>
@@ -210,7 +210,7 @@
         <p>Unlimited Classes</p>
         <p>Unlimited PDFS</p>
         <p>Unlimited Assignments</p>
-        <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+        <button type="button" class="btn btn-dark btn-lg btn-block"  onclick="signUp()">Sign Up</button>
       </div>
     </div>
     </div>
@@ -224,7 +224,7 @@
   <section id="yt">
 
     <h3 class="end">Want to listen our free classes.</h3>
-    <button type="button" class="end-download-button btn btn-dark btn-lg"><i class="fa fa-brands fa-youtube-square">  </i> Free Vedios</button>
+    <button type="button" class="end-download-button btn btn-dark btn-lg" onclick="youTube()"><i class="fa fa-brands fa-youtube-square">  </i> Free Vedios</button>
 
   </section>
 
@@ -234,8 +234,8 @@
   <section id="cta">
 
     <h3 class="end">Download the app.</h3>
-    <button type="button" class="end-download-button btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-    <button type="button" class="end-download-button btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+    <button type="button" class="end-download-button btn btn-dark btn-lg" onclick="appleStore()"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="end-download-button btn btn-outline-light btn-lg" onclick="googleStore()"><i class="fab fa-google-play"></i> Download</button>
 
   </section>
 
@@ -243,14 +243,16 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <i class="social-media fab fa-twitter"></i>
-    <i class="social-media fab fa-facebook"></i>
-    <i class="social-media fas fa-envelope"></i>
-    <i class="social-media fab fa-instagram"></i>
+    <i class="social-media fab fa-twitter" onclick="twitter()"></i>
+    <i class="social-media fab fa-facebook" onclick="facebook()"></i>
+    <i class="social-media fas fa-envelope" onclick="mail()"></i>
+    <i class="social-media fab fa-instagram" onclick="instagram()"></i>
     <p>© Copyright 2022 MyAcad</p>
 
   </footer>
 
+
+  <!-- <button onclick="appleStore()">click</button> -->
   <script src="index.js"></script>
 
 
