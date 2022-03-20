@@ -7,7 +7,7 @@ body{
 }
 
 #title{
-    background: linear-gradient(to top right, #80FFDB, #5390D9);
+    background: linear-gradient(to top right, #69fcd2, #5390D9);
     
 }
 .navbar-dark .navbar-brand{
@@ -142,6 +142,7 @@ body{
 
 .pressAlumini{
     margin-top: 2.5%;
+    margin-bottom: 2rem;
     font-size: 2.5rem;
 }
 
@@ -202,13 +203,13 @@ body{
 
 .end{
     font-size:2.5rem ;
-    padding: 2% 0% 0%;
+    padding: 2% 0% 2% 0%;
     margin-bottom: 0%;
     line-height: 1.5rem;
 }
 
 .end-download-button{
-    margin:2%;
+    margin:1%;
 }
 
 #footer{
